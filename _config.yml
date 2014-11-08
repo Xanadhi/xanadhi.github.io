@@ -1,35 +1,48 @@
----
-
-port: 4000
-host: 0.0.0.0
-safe: false
-
-
-### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
-timezone: null
-lsi: false
+# Configurations
 markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
 highlighter: pygments
 
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title
 
-### content configuration ###
-title:       "Andy Tran - Github"
-keywords:    "andy, tran, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
-favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+# Setup
+title:            'Jekyll Metro'
+tagline:          'A Metro theme for Jekyll'
+description:      'A Sample blog using Jekyll Metro'
+url:              'http://localhost:4000'
+baseurl:          ''
 
+# Navigation
+navigation:
+- text: About
+  url: /about/
+- text: Resume
+  url: /resume/
+- text: Blog
+  url: /blog/
+- text: Tags
+  url: /tags/
+- text: Archive
+  url : /archive/
 
-### template colors, used site-wide via css ###
-colors:
-  black:     '#111111'
-  white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
-  turquoise: '#0fbfcf'
+# Author Details
+author:         'Abdel Raoof Olakara'
+linkedin:       'https://ae.linkedin.com/in/olakara/'
+twitter:        'https://twitter.com/olakara'
+facebook:       'https://www.facebook.com/olakara'
+gplus:          'https://plus.google.com/100425464897246255887/'
+
+# Google Analytics
+gahandler: 'UA-52149651-1'
+
+# Disqus
+disqushandler: 'testingblogo'
+
+# Blog Configurations
+paginate: 10 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+destination: ./_site
+
+# Custom vars
+version:          0.7.9
