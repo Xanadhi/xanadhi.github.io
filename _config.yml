@@ -7,9 +7,9 @@ highlighter: pygments
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'Jekyll Metro'
-tagline:          'A Metro theme for Jekyll'
-description:      'A Sample blog using Jekyll Metro'
+title:            'Andy Tran @ Github'
+tagline:          'Tech, innovation and global health'
+description:      'Portfolio showcasing my work in web development and global health'
 url:              'http://xanadhi.github.io/'
 baseurl:          ''
 
@@ -28,13 +28,13 @@ navigation:
 
 # Author Details
 author:         'Andy Tran'
-linkedin:       'https://ae.linkedin.com/in/olakara/'
-twitter:        'https://twitter.com/olakara'
-facebook:       'https://www.facebook.com/olakara'
-gplus:          'https://plus.google.com/100425464897246255887/'
+linkedin:       'https://ca.linkedin.com/pub/andy-tran/1a/80b/485/'
+twitter:        'https://twitter.com/andyxtran'
+facebook:       'https://www.facebook.com/andyxtran'
+gplus:          'https://plus.google.com/+AndyTran88'
 
 # Google Analytics
-gahandler: 'UA-52149651-1'
+gahandler: 'UA-39675259-1'
 
 # Disqus
 disqushandler: 'testingblogo'
