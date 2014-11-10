@@ -13,7 +13,7 @@
 
   <title>
     
-      Another Sharepoint post &middot; Andy Tran @ Github
+      Markdown basics &middot; Andy Tran @ Github
     
   </title>
 
@@ -21,9 +21,9 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" value="summary">
   <!-- Open Graph data -->
-  <meta property="og:title" content="Another Sharepoint post" />
+  <meta property="og:title" content="Markdown basics" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="/blog/2014/07/07/another-sharepoint-post" />
+  <meta property="og:url" content="/2014/markdown-basics" />
   <meta property="og:description" content="" />
   
 
@@ -131,33 +131,59 @@
     </div> <!-- Side column -->
     <div class="col-md-10 col-sm-9 col-md-offset-2 col-sm-offset-3">
       <article class="col-md-12 col-xs-12 justified">
-        <h1 class="post-title">Another Sharepoint post</h1>
+        <h1 class="post-title">Markdown basics</h1>
         <div class="publish-tag">
-          <span class="fa fa-calendar"></span>&nbsp;Published On July 07, 2014
+          <span class="fa fa-calendar"></span>&nbsp;Published On June 24, 2014
         </div>
-        <p>A blog is a Web site that enables you or your organization to quickly share ideas and information. Blogs contain posts that are dated and listed in reverse chronological order. People can comment on your posts, as well as provide links to interesting sites, photos, and related blogs.</p>
+        <p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
 
-<p>Posts are an essential part of a blog. They are typically journal-like entries that contain information, ideas, and opinions. They are displayed in chronological order, starting with the most recent posts.</p>
+<p>Readability, however, is emphasized above all else. A Markdown-formatted
+document should be publishable as-is, as plain text, without looking
+like it’s been marked up with tags or formatting instructions. While
+Markdown’s syntax has been influenced by several existing text-to-HTML
+filters – including <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a>, <a href="http://www.aaronsw.com/2002/atx/">atx</a>, <a href="http://textism.com/tools/textile/">Textile</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>,
+<a href="http://www.triptico.com/software/grutatxt.html">Grutatext</a>, and <a href="http://ettext.taint.org/doc/">EtText</a> – the single biggest source of
+inspiration for Markdown’s syntax is the format of plain text email.</p>
 
-<p>You can create a post on a SharePoint blog by using a Web browser, if you have permission to contribute to the Posts list. You don’t need additional tools or programs to create content, add pictures, apply formatting, and insert hyperlinks. To post comments to a blog, you must have permission to contribute to the Comments list. In some cases, comments must be approved before they will appear on the site.</p>
+<p>To this end, Markdown’s syntax is comprised entirely of punctuation
+characters, which punctuation characters have been carefully chosen so
+as to look like what they mean. E.g., asterisks around a word actually
+look like *emphasis*. Markdown lists look like, well, lists. Even
+blockquotes look like quoted passages of text, assuming you’ve ever
+used email.</p>
 
-<p>Note   If your Web browser doesn’t support ActiveX controls, then the formatting toolbar may not be available. However, you can use basic HTML tags to format the text in your blog posts.</p>
+<h3 id="html">Inline HTML</h3>
 
-<p>You can also post content to a blog by doing the following:</p>
+<p>Markdown’s syntax is intended for one purpose: to be used as a
+format for <em>writing</em> for the web.</p>
 
-<pre><code>Creating and submitting a post in an e-mail message. In order to submit a post in an e-mail message, your blog must be enabled to receive content in e-mail messages.
-Creating a post by using a blog creation and publishing tool that is compatible with a SharePoint blogs.
-</code></pre>
+<p>Markdown is not a <a href="/blog" class="a-purple">replacement for HTML</a>, or even close to it. Its
+syntax is very small, corresponding only to a very small subset of
+HTML tags. The idea is <em>not</em> to create a syntax that makes it easier
+to insert HTML tags. In my opinion, HTML tags are already easy to
+insert. The idea for Markdown is to make it easy to read, write, and
+edit prose. HTML is a <em>publishing</em> format; Markdown is a <em>writing</em>
+format. Thus, <a href="/blog" class="a-green">Markdown’s formatting syntax</a> only addresses issues that
+can be conveyed in plain text.</p>
 
-<p>By default, blogs are set up so that approval is required before posts are published. This can be helpful if numerous people are publishing content, or if a post could contain sensitive content. By default, people who have permission to manage lists can approve blog posts, but you can customize those settings. </p>
+<p>For any markup that is not covered by Markdown’s syntax, you simply
+use HTML itself. There’s no need to preface it or delimit it to
+indicate that you’re switching from Markdown to HTML; you just use
+the tags.</p>
+
+<p>The only restrictions are that block-level HTML elements – e.g. <code>&lt;div&gt;</code>,
+<code>&lt;table&gt;</code>, <code>&lt;pre&gt;</code>, <code>&lt;p&gt;</code>, etc. – must be separated from surrounding
+content by blank lines, and the start and end tags of the block should
+not be indented with tabs or spaces. Markdown is smart enough not
+to add extra (unwanted) <code>&lt;p&gt;</code> tags around HTML block-level tags.</p>
 
         <br/>
         <span class="fa fa-tag"></span>Tags:
         
           		
-            <a href="/tags/SharePoint"><span class="label label-primary">SharePoint</span></a>
+            <a href="/tags/Design"><span class="label label-primary">Design</span></a>
           		
-            <a href="/tags/Designer"><span class="label label-primary">Designer</span></a>
+            <a href="/tags/Markdown"><span class="label label-primary">Markdown</span></a>
           
         
         <br/><br/>
@@ -181,12 +207,12 @@ Creating a post by using a blog creation and publishing tool that is compatible 
       <div class="row">
         <div class="col-sm-6 col-xs-6 text-left">
        	
-        	<a class="btn btn-blue" href="/blog/2014/06/24/markdown-basics">← Previous</a>
+        	<a class="btn btn-blue" href="/2014/another-sample-markdown">← Previous</a>
         
         </div>
         <div class="col-sm-6 col-xs-6 text-right">
         
-        	<span class="btn btn-blue disabled">Next →</span>
+        	<a class="btn btn-blue" href="/2014/another-sharepoint-post">Next →</a>
          
         </div>
       </div>

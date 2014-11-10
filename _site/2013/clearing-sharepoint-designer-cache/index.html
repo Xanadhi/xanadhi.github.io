@@ -13,7 +13,7 @@
 
   <title>
     
-      Welcome to Jekyll! &middot; Andy Tran @ Github
+      Clearing SharePoint Designer Cache &middot; Andy Tran @ Github
     
   </title>
 
@@ -21,9 +21,9 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" value="summary">
   <!-- Open Graph data -->
-  <meta property="og:title" content="Welcome to Jekyll!" />
+  <meta property="og:title" content="Clearing SharePoint Designer Cache" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="/blog/2013/12/11/welcome-to-jekyll" />
+  <meta property="og:url" content="/2013/clearing-sharepoint-designer-cache" />
   <meta property="og:description" content="" />
   
 
@@ -131,48 +131,29 @@
     </div> <!-- Side column -->
     <div class="col-md-10 col-sm-9 col-md-offset-2 col-sm-offset-3">
       <article class="col-md-12 col-xs-12 justified">
-        <h1 class="post-title">Welcome to Jekyll!</h1>
+        <h1 class="post-title">Clearing SharePoint Designer Cache</h1>
         <div class="publish-tag">
-          <span class="fa fa-calendar"></span>&nbsp;Published On December 11, 2013
+          <span class="fa fa-calendar"></span>&nbsp;Published On October 11, 2013
         </div>
-        <p>You’ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
-To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
+        <p>Sometimes, SharePoint Designer just goes haywire! You try to edit or publish a workflow and it says the item cannot be displayed. At times, it even says that the site is disabled to be edited from SharePoint Designer. But, you know what you are doing and are sure that these are just “crazy” errors!</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>All you need to to fix these kind of issues are to clear the cache and make SharePoint Designer feel that you are starting from scratch. SharePoint Designer’s cache is spread around three different folders. Close any running instance of designer and delete all folders and files in the following directories:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-<span class="lineno">2</span>   <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="lineno">3</span> <span class="k">end</span>
-<span class="lineno">4</span> <span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="lineno">5</span> <span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
+<ol>
+  <li>C:\Users\AppData\Local\Microsoft\WebsiteCache</li>
+  <li>C:\Users\AppData\Roaming\Microsoft\SharePoint Designer\ProxyAssemblyCache</li>
+  <li>C:\Users\AppData\Roaming\Microsoft\Web Server Extensions\Cache</li>
+</ol>
 
-<p>Another test:</p>
-
-<div class="highlight"><pre><code class="language-csharp" data-lang="csharp"><span class="lineno"> 1</span> <span class="c1">// Read the file as one string.</span>
-<span class="lineno"> 2</span> <span class="n">System</span><span class="p">.</span><span class="n">IO</span><span class="p">.</span><span class="n">StreamReader</span> <span class="n">myFile</span> <span class="p">=</span> <span class="k">new</span> <span class="n">System</span><span class="p">.</span><span class="n">IO</span><span class="p">.</span><span class="n">StreamReader</span><span class="p">(</span><span class="s">&quot;c:\\test.txt&quot;</span><span class="p">);</span>
-<span class="lineno"> 3</span> <span class="kt">string</span> <span class="n">myString</span> <span class="p">=</span> <span class="n">myFile</span><span class="p">.</span><span class="n">ReadToEnd</span><span class="p">();</span>
-<span class="lineno"> 4</span> 
-<span class="lineno"> 5</span> <span class="n">myFile</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
-<span class="lineno"> 6</span> 
-<span class="lineno"> 7</span> <span class="c1">// Display the file contents.</span>
-<span class="lineno"> 8</span> <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">myString</span><span class="p">);</span>
-<span class="lineno"> 9</span> <span class="c1">// Suspend the screen.</span>
-<span class="lineno">10</span> <span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">();</span></code></pre></div>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/jekyll">Jekyll’s GitHub repo</a>.</p>
-
+<p>Fire up your SharePoint Designer and you should get a clean start. </p>
 
         <br/>
         <span class="fa fa-tag"></span>Tags:
         
           		
-            <a href="/tags/Welcome"><span class="label label-primary">Welcome</span></a>
+            <a href="/tags/SharePoint"><span class="label label-primary">SharePoint</span></a>
           		
-            <a href="/tags/Jekyll"><span class="label label-primary">Jekyll</span></a>
-          		
-            <a href="/tags/Update"><span class="label label-primary">Update</span></a>
-          		
-            <a href="/tags/First"><span class="label label-primary">First</span></a>
+            <a href="/tags/Designer"><span class="label label-primary">Designer</span></a>
           
         
         <br/><br/>
@@ -196,12 +177,12 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
       <div class="row">
         <div class="col-sm-6 col-xs-6 text-left">
        	
-        	<a class="btn btn-blue" href="/blog/2013/10/11/clearing-sharepoint-designer-cache">← Previous</a>
+        	<a class="btn btn-blue" href="/2013/dashboard-designer-cannot-connect-to-performancepoint">← Previous</a>
         
         </div>
         <div class="col-sm-6 col-xs-6 text-right">
         
-        	<a class="btn btn-blue" href="/blog/2014/06/23/a-sample-pangram">Next →</a>
+        	<a class="btn btn-blue" href="/2013/welcome-to-jekyll">Next →</a>
          
         </div>
       </div>

@@ -29,44 +29,28 @@ description: Home Page for Jekyll Metro Theme
 
 		<div class="row">
 
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts offset:1 limit:1 %}
-				<a href="{{post.url}}">
-					<div class="tile green bord">
-						<h3 class="title">Recent Article</h3>
-						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+			<div class="col-md-4 col-sm-4 col-xs-4">
+				<a href="/2014/peep-phonebook">
+					<div class="tile" id="peep-phonebook">
+						<h4 class="title">Peep Phonebook</h4>
+						<p> Contact list app</p>
 					</div>
 				</a>
-				{% endfor %}
 			</div>
 
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts limit:1 %}
+				{% for post in site.posts limit:2 %}
+
+			<div class="col-md-4 col-sm-4 col-xs-4">
 				<a href="{{post.url}}">
 					<div class="tile red bord">
-						<h3 class="title">Latest Article</h3>
 						<h4 class="title">{{ post.title }}</h4>
 						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
 					</div>
 				</a>
-				{% endfor %}
 			</div>
+					{% endfor %}
 
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts %}
-					{% if post.featured == true %}
-					<a href="{{post.url}}">
-						<div class="tile orange bord">
-							<h3 class="title">Featured Article</h3>
-							<h4 class="title">{{ post.title }}</h4>
-							<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
-						</div>
-					</a>
-					{% break %}
-					{% endif %}
-				{% endfor %}
-			</div>
+
 		</div>
 
 		<div class="row" style="margin-bottom:25px">

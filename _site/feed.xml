@@ -5,9 +5,28 @@
     <description>Portfolio showcasing my work in web development and global health</description>
     <link>http://xanadhi.github.io//</link>
     <atom:link href="http://xanadhi.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 08 Nov 2014 23:14:22 -0800</pubDate>
-    <lastBuildDate>Sat, 08 Nov 2014 23:14:22 -0800</lastBuildDate>
+    <pubDate>Sun, 09 Nov 2014 20:28:04 -0800</pubDate>
+    <lastBuildDate>Sun, 09 Nov 2014 20:28:04 -0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
+    
+      <item>
+        <title>Peep Phonebook</title>
+        <description>&lt;p&gt;Peep!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Nov 2014 12:09:00 -0800</pubDate>
+        <link>http://xanadhi.github.io//2014/peep-phonebook</link>
+        <guid isPermaLink="true">http://xanadhi.github.io//2014/peep-phonebook</guid>
+        
+        
+        <category>design</category>
+        
+        <category>jquery</category>
+        
+        <category>css</category>
+        
+        <category>api</category>
+        
+      </item>
     
       <item>
         <title>Another Sharepoint post</title>
@@ -28,8 +47,8 @@ Creating a post by using a blog creation and publishing tool that is compatible 
 &lt;p&gt;By default, blogs are set up so that approval is required before posts are published. This can be helpful if numerous people are publishing content, or if a post could contain sensitive content. By default, people who have permission to manage lists can approve blog posts, but you can customize those settings. &lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Jul 2014 08:30:00 -0700</pubDate>
-        <link>http://xanadhi.github.io//blog/2014/07/07/another-sharepoint-post</link>
-        <guid isPermaLink="true">http://xanadhi.github.io//blog/2014/07/07/another-sharepoint-post</guid>
+        <link>http://xanadhi.github.io//2014/another-sharepoint-post</link>
+        <guid isPermaLink="true">http://xanadhi.github.io//2014/another-sharepoint-post</guid>
         
         <category>SharePoint</category>
         
@@ -85,8 +104,8 @@ not be indented with tabs or spaces. Markdown is smart enough not
 to add extra (unwanted) &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags around HTML block-level tags.&lt;/p&gt;
 </description>
         <pubDate>Tue, 24 Jun 2014 16:30:58 -0700</pubDate>
-        <link>http://xanadhi.github.io//blog/2014/06/24/markdown-basics</link>
-        <guid isPermaLink="true">http://xanadhi.github.io//blog/2014/06/24/markdown-basics</guid>
+        <link>http://xanadhi.github.io//2014/markdown-basics</link>
+        <guid isPermaLink="true">http://xanadhi.github.io//2014/markdown-basics</guid>
         
         <category>Design</category>
         
@@ -285,12 +304,14 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 24 Jun 2014 16:28:58 -0700</pubDate>
-        <link>http://xanadhi.github.io//blog/2014/06/24/another-sample-markdown</link>
-        <guid isPermaLink="true">http://xanadhi.github.io//blog/2014/06/24/another-sample-markdown</guid>
+        <link>http://xanadhi.github.io//2014/another-sample-markdown</link>
+        <guid isPermaLink="true">http://xanadhi.github.io//2014/another-sample-markdown</guid>
         
         <category>Design</category>
         
         <category>Markdown</category>
+        
+        <category>FEatured</category>
         
         
         <category>design</category>
@@ -315,8 +336,8 @@ Adjusting quiver and bow, Zompyc[1] killed the fox. My faxed joke won a pager in
 Amazingly few discotheques provide jukeboxes. My girl wove six dozen plaid jackets before she quit. Six big devils from Japan quickly forgot how they won the game&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Jun 2014 14:28:58 -0700</pubDate>
-        <link>http://xanadhi.github.io//blog/2014/06/23/a-sample-pangram</link>
-        <guid isPermaLink="true">http://xanadhi.github.io//blog/2014/06/23/a-sample-pangram</guid>
+        <link>http://xanadhi.github.io//2014/a-sample-pangram</link>
+        <guid isPermaLink="true">http://xanadhi.github.io//2014/a-sample-pangram</guid>
         
         <category>Sample</category>
         
@@ -359,8 +380,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Wed, 11 Dec 2013 02:28:58 -0800</pubDate>
-        <link>http://xanadhi.github.io//blog/2013/12/11/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://xanadhi.github.io//blog/2013/12/11/welcome-to-jekyll</guid>
+        <link>http://xanadhi.github.io//2013/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://xanadhi.github.io//2013/welcome-to-jekyll</guid>
         
         <category>Welcome</category>
         
@@ -374,6 +395,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
         <category>jekyll</category>
         
         <category>update</category>
+        
+        <category>featured</category>
         
       </item>
     
@@ -392,8 +415,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Fire up your SharePoint Designer and you should get a clean start. &lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Oct 2013 08:30:00 -0700</pubDate>
-        <link>http://xanadhi.github.io//blog/2013/10/11/clearing-sharepoint-designer-cache</link>
-        <guid isPermaLink="true">http://xanadhi.github.io//blog/2013/10/11/clearing-sharepoint-designer-cache</guid>
+        <link>http://xanadhi.github.io//2013/clearing-sharepoint-designer-cache</link>
+        <guid isPermaLink="true">http://xanadhi.github.io//2013/clearing-sharepoint-designer-cache</guid>
         
         <category>SharePoint</category>
         
@@ -475,8 +498,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;These steps should ensure that you get your PerformancePoint service up and running.&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Apr 2013 08:30:00 -0700</pubDate>
-        <link>http://xanadhi.github.io//blog/2013/04/20/dashboard-designer-cannot-connect-to-performancepoint</link>
-        <guid isPermaLink="true">http://xanadhi.github.io//blog/2013/04/20/dashboard-designer-cannot-connect-to-performancepoint</guid>
+        <link>http://xanadhi.github.io//2013/dashboard-designer-cannot-connect-to-performancepoint</link>
+        <guid isPermaLink="true">http://xanadhi.github.io//2013/dashboard-designer-cannot-connect-to-performancepoint</guid>
         
         <category>SharePoint</category>
         

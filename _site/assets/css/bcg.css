@@ -1,5 +1,15 @@
+/* Individual tile backgrounds for my projects */
+
+#peep-phonebook {
+  background-image: url("http://i.imgur.com/VdYJwDT.png") no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+/* */
+
 body {
-		background: url('/assets/images/squamish-bg.jpg') no-repeat center center fixed;
+		background: url('/assets/images/squamish_bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,7 +19,7 @@ body {
 }
 
 .bord {
-   border: transparent !important;
+   border: transparent;
 }
 
 .mtile {

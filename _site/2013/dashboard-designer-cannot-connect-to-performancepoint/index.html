@@ -13,7 +13,7 @@
 
   <title>
     
-      Clearing SharePoint Designer Cache &middot; Andy Tran @ Github
+      Cannot Connect to PerformancePoint Service &middot; Andy Tran @ Github
     
   </title>
 
@@ -21,9 +21,9 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" value="summary">
   <!-- Open Graph data -->
-  <meta property="og:title" content="Clearing SharePoint Designer Cache" />
+  <meta property="og:title" content="Cannot Connect to PerformancePoint Service" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="/blog/2013/10/11/clearing-sharepoint-designer-cache" />
+  <meta property="og:url" content="/2013/dashboard-designer-cannot-connect-to-performancepoint" />
   <meta property="og:description" content="" />
   
 
@@ -131,21 +131,77 @@
     </div> <!-- Side column -->
     <div class="col-md-10 col-sm-9 col-md-offset-2 col-sm-offset-3">
       <article class="col-md-12 col-xs-12 justified">
-        <h1 class="post-title">Clearing SharePoint Designer Cache</h1>
+        <h1 class="post-title">Cannot Connect to PerformancePoint Service</h1>
         <div class="publish-tag">
-          <span class="fa fa-calendar"></span>&nbsp;Published On October 11, 2013
+          <span class="fa fa-calendar"></span>&nbsp;Published On April 20, 2013
         </div>
-        <p>Sometimes, SharePoint Designer just goes haywire! You try to edit or publish a workflow and it says the item cannot be displayed. At times, it even says that the site is disabled to be edited from SharePoint Designer. But, you know what you are doing and are sure that these are just “crazy” errors!</p>
+        <p>After configuring my PerformancePoint Service on SharePoint 2013. This error hit me when trying to create a new data source from Dashboard Designer.</p>
 
-<p>All you need to to fix these kind of issues are to clear the cache and make SharePoint Designer feel that you are starting from scratch. SharePoint Designer’s cache is spread around three different folders. Close any running instance of designer and delete all folders and files in the following directories:</p>
+<p>Here are the steps to make sure you have your PerformancePoint service configured properly.</p>
 
-<ol>
-  <li>C:\Users\AppData\Local\Microsoft\WebsiteCache</li>
-  <li>C:\Users\AppData\Roaming\Microsoft\SharePoint Designer\ProxyAssemblyCache</li>
-  <li>C:\Users\AppData\Roaming\Microsoft\Web Server Extensions\Cache</li>
-</ol>
+<p><strong>1. Make sure you have the PerformancePoint Service and Secure Store Service started.</strong></p>
 
-<p>Fire up your SharePoint Designer and you should get a clean start. </p>
+<table>
+  <tbody>
+    <tr>
+      <td>You can check this by going to Central Administration</td>
+      <td>Application Management</td>
+      <td>Service Applications</td>
+      <td>Manage services on server</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>2. Make sure you have a Secure Store service application running.</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>You can check this by going to Central Administration</td>
+      <td>Application Management</td>
+      <td>Service Applications</td>
+      <td>Manage service applications.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Ensure that you have configured the service application properly.</p>
+
+<p><strong>3. Make sure you have a PerformancePoint Service application running.</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>You can check this by going to Central Administration</td>
+      <td>Application Management</td>
+      <td>Service Applications</td>
+      <td>Manage service application.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Ensure that you have configured the service application properly. Click on your performance point service application to take you to the management screen as shown below:</p>
+
+<p>Verify you application setting by selecting PerformancePoint Service Application Settings.</p>
+
+<p>Make sure you have your secure store displayed and you are using your appropriate unattended service account (If you are using the service account, click Change User and reenter the username and password).</p>
+
+<p><strong>4. And finally check service application associations.</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Go to Central Administration</td>
+      <td>Application Management</td>
+      <td>Service Applications</td>
+      <td>Configure service application associations</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Click on default and ensure that your performance point service is selected.</p>
+
+<p>These steps should ensure that you get your PerformancePoint service up and running.</p>
 
         <br/>
         <span class="fa fa-tag"></span>Tags:
@@ -153,7 +209,7 @@
           		
             <a href="/tags/SharePoint"><span class="label label-primary">SharePoint</span></a>
           		
-            <a href="/tags/Designer"><span class="label label-primary">Designer</span></a>
+            <a href="/tags/PerformancePoint Service"><span class="label label-primary">PerformancePoint Service</span></a>
           
         
         <br/><br/>
@@ -177,12 +233,12 @@
       <div class="row">
         <div class="col-sm-6 col-xs-6 text-left">
        	
-        	<a class="btn btn-blue" href="/blog/2013/04/20/dashboard-designer-cannot-connect-to-performancepoint">← Previous</a>
+        	<span class="btn btn-blue disabled">← Previous</span>
         
         </div>
         <div class="col-sm-6 col-xs-6 text-right">
         
-        	<a class="btn btn-blue" href="/blog/2013/12/11/welcome-to-jekyll">Next →</a>
+        	<a class="btn btn-blue" href="/2013/clearing-sharepoint-designer-cache">Next →</a>
          
         </div>
       </div>

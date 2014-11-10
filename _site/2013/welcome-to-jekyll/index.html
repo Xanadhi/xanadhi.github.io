@@ -13,7 +13,7 @@
 
   <title>
     
-      Another sample markdown &middot; Andy Tran @ Github
+      Welcome to Jekyll! &middot; Andy Tran @ Github
     
   </title>
 
@@ -21,9 +21,9 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" value="summary">
   <!-- Open Graph data -->
-  <meta property="og:title" content="Another sample markdown" />
+  <meta property="og:title" content="Welcome to Jekyll!" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="/blog/2014/06/24/another-sample-markdown" />
+  <meta property="og:url" content="/2013/welcome-to-jekyll" />
   <meta property="og:description" content="" />
   
 
@@ -131,200 +131,48 @@
     </div> <!-- Side column -->
     <div class="col-md-10 col-sm-9 col-md-offset-2 col-sm-offset-3">
       <article class="col-md-12 col-xs-12 justified">
-        <h1 class="post-title">Another sample markdown</h1>
+        <h1 class="post-title">Welcome to Jekyll!</h1>
         <div class="publish-tag">
-          <span class="fa fa-calendar"></span>&nbsp;Published On June 24, 2014
+          <span class="fa fa-calendar"></span>&nbsp;Published On December 11, 2013
         </div>
-        <h1 id="an-h1-header">An h1 header</h1>
+        <p>You’ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
+To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
 
-<p>Paragraphs are separated by a blank line.</p>
+<p>Jekyll also offers powerful support for code snippets:</p>
 
-<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists
-look like:</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+<span class="lineno">2</span>   <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="lineno">3</span> <span class="k">end</span>
+<span class="lineno">4</span> <span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
+<span class="lineno">5</span> <span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
 
-<ul>
-  <li>this one</li>
-  <li>that one</li>
-  <li>the other one</li>
-</ul>
+<p>Another test:</p>
 
-<p>Note that — not considering the asterisk — the actual text
-content starts at 4-columns in.</p>
+<div class="highlight"><pre><code class="language-csharp" data-lang="csharp"><span class="lineno"> 1</span> <span class="c1">// Read the file as one string.</span>
+<span class="lineno"> 2</span> <span class="n">System</span><span class="p">.</span><span class="n">IO</span><span class="p">.</span><span class="n">StreamReader</span> <span class="n">myFile</span> <span class="p">=</span> <span class="k">new</span> <span class="n">System</span><span class="p">.</span><span class="n">IO</span><span class="p">.</span><span class="n">StreamReader</span><span class="p">(</span><span class="s">&quot;c:\\test.txt&quot;</span><span class="p">);</span>
+<span class="lineno"> 3</span> <span class="kt">string</span> <span class="n">myString</span> <span class="p">=</span> <span class="n">myFile</span><span class="p">.</span><span class="n">ReadToEnd</span><span class="p">();</span>
+<span class="lineno"> 4</span> 
+<span class="lineno"> 5</span> <span class="n">myFile</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+<span class="lineno"> 6</span> 
+<span class="lineno"> 7</span> <span class="c1">// Display the file contents.</span>
+<span class="lineno"> 8</span> <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">myString</span><span class="p">);</span>
+<span class="lineno"> 9</span> <span class="c1">// Suspend the screen.</span>
+<span class="lineno">10</span> <span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">();</span></code></pre></div>
 
-<blockquote>
-  <p>Block quotes are
-written like so.</p>
+<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/jekyll">Jekyll’s GitHub repo</a>.</p>
 
-  <p>They can span multiple paragraphs,
-if you like.</p>
-</blockquote>
-
-<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., “it’s all
-in chapters 12–14”). Three dots … will be converted to an ellipsis.</p>
-
-<h2 id="an-h2-header">An h2 header</h2>
-
-<p>Here’s a numbered list:</p>
-
-<ol>
-  <li>first item</li>
-  <li>second item</li>
-  <li>third item</li>
-</ol>
-
-<p>Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here’s a code sample:</p>
-
-<pre><code># Let me re-iterate ...
-for i in 1 .. 10 { do-something(i) }
-</code></pre>
-
-<p>As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:</p>
-
-<pre><code>define foobar() {
-    print "Welcome to flavor country!";
-}
-</code></pre>
-
-<p>(which makes copying &amp; pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:</p>
-
-<pre><code class="language-python">import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-</code></pre>
-
-<h3 id="an-h3-header">An h3 header</h3>
-
-<p>Now a nested list:</p>
-
-<ol>
-  <li>
-    <p>First, get these ingredients:</p>
-
-    <ul>
-      <li>carrots</li>
-      <li>celery</li>
-      <li>lentils</li>
-    </ul>
-  </li>
-  <li>
-    <p>Boil some water.</p>
-  </li>
-  <li>
-    <p>Dump everything in the pot and follow
-this algorithm:</p>
-
-    <pre><code>find wooden spoon
-uncover pot
-stir
-cover pot
-balance wooden spoon precariously on pot handle
-wait 10 minutes
-goto first step (or shut off burner when done)
-</code></pre>
-
-    <p>Do not bump wooden spoon or it will fall.</p>
-  </li>
-</ol>
-
-<p>Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above). Here’s a link to <a href="http://foo.bar">a
-website</a>. Here’s a link to a <a href="local-doc.html">local
-doc</a>. Here’s a footnote <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
-
-<p>Tables can look like this:</p>
-
-<p>size  material      color
-—-  ————  ————
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent</p>
-
-<p>Table: Shoes, their sizes, and what they’re made of</p>
-
-<p>(The above is the caption for the table.) Pandoc also supports
-multi-line tables:</p>
-
-<hr />
-<p>keyword   text
-——–  ———————–
-red       Sunsets, apples, and
-          other red or reddish
-          things.</p>
-
-<p>green     Leaves, grass, frogs
-          and other things it’s
-          not easy being.
-——–  ———————–</p>
-
-<p>A horizontal rule follows.</p>
-
-<hr />
-
-<p>Here’s a definition list:</p>
-
-<dl>
-  <dt>apples</dt>
-  <dd>Good for making applesauce.
-oranges</dd>
-  <dd>Citrus!
-tomatoes</dd>
-  <dd>There’s no “e” in tomatoe.</dd>
-</dl>
-
-<p>Again, text is indented 4 spaces. (Alternately, put blank lines in
-between each of the above definition list lines to spread things
-out more.)</p>
-
-<p>Here’s a “line block”:</p>
-
-<table>
-  <tbody>
-    <tr>
-      <td>Line one</td>
-    </tr>
-    <tr>
-      <td>Line too</td>
-    </tr>
-    <tr>
-      <td>Line tree</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>and images can be specified like so:</p>
-
-<p><img src="assets/images/favicon-128.png" alt="example image" title="An exemplary image" /></p>
-
-<p>Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:</p>
-
-<script type="math/tex; mode=display">I = \int \rho R^{2} dV</script>
-
-<p>And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
-
-<p>Done.</p>
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>Footnote text goes here. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 
         <br/>
         <span class="fa fa-tag"></span>Tags:
         
           		
-            <a href="/tags/Design"><span class="label label-primary">Design</span></a>
+            <a href="/tags/Welcome"><span class="label label-primary">Welcome</span></a>
           		
-            <a href="/tags/Markdown"><span class="label label-primary">Markdown</span></a>
+            <a href="/tags/Jekyll"><span class="label label-primary">Jekyll</span></a>
+          		
+            <a href="/tags/Update"><span class="label label-primary">Update</span></a>
+          		
+            <a href="/tags/First"><span class="label label-primary">First</span></a>
           
         
         <br/><br/>
@@ -348,12 +196,12 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
       <div class="row">
         <div class="col-sm-6 col-xs-6 text-left">
        	
-        	<a class="btn btn-blue" href="/blog/2014/06/23/a-sample-pangram">← Previous</a>
+        	<a class="btn btn-blue" href="/2013/clearing-sharepoint-designer-cache">← Previous</a>
         
         </div>
         <div class="col-sm-6 col-xs-6 text-right">
         
-        	<a class="btn btn-blue" href="/blog/2014/06/24/markdown-basics">Next →</a>
+        	<a class="btn btn-blue" href="/2014/a-sample-pangram">Next →</a>
          
         </div>
       </div>
