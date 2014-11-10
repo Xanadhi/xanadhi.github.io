@@ -38,17 +38,6 @@ description: Home Page for Jekyll Metro Theme
 				</a>
 			</div>
 
-				{% for post in site.posts limit:2 %}
-
-			<div class="col-md-4 col-sm-4 col-xs-4">
-				<a href="{{post.url}}">
-					<div class="tile red bord">
-						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
-					</div>
-				</a>
-			</div>
-					{% endfor %}
 
 
 		</div>
@@ -57,23 +46,19 @@ description: Home Page for Jekyll Metro Theme
 
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.twitter}}"  class="tile blue bord tw-ico"></a>
+				<a href="{{site.twitter}}"  class="tile lightblue bord tw-ico"></a>
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.linkedin}}" class="tile green bord lk-ico"></a>
+				<a href="{{site.linkedin}}" class="tile blue bord lk-ico"></a>
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.facebook}}" class="tile blue bord fk-ico"></a>
+				<a href="{{site.facebook}}" class="tile darkblue bord fk-ico"></a>
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.gplus}}" class="tile orange bord gl-ico"></a>
-			</div>
-
-			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="feed.xml/" class="tile purple bord rs-ico"></a>
+				<a href="feed.xml/" class="tile violet bord rs-ico"></a>
 			</div>
 
 

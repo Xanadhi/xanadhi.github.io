@@ -50,6 +50,18 @@
     color: #fff;
 }
 
+.lightblue {
+    background: #66CCFF;
+}
+
+.darkblue {
+    background: #0052CC;
+}
+
+.violet {
+    background: #2E2EE6;
+}
+
 .purple {
     background: #5133AB;
 }
@@ -63,7 +75,7 @@
 }
 
 .blue {
-    background: #007fff;
+    background: #3399FF;
 }
 
 .orange {

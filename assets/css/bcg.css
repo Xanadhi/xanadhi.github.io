@@ -1,9 +1,9 @@
 /* Individual tile backgrounds for my projects */
 
 #peep-phonebook {
-  background-image: url("http://i.imgur.com/VdYJwDT.png") no-repeat;
-  width: 100%;
-  height: auto;
+  background: url("http://i.imgur.com/VdYJwDT.png") no-repeat;
+  width: 1005;
+  height: 160px;
 }
 
 /* */
