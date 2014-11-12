@@ -5,8 +5,8 @@
     <description>Portfolio showcasing my work in web development and global health</description>
     <link>http://xanadhi.github.io//</link>
     <atom:link href="http://xanadhi.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Nov 2014 20:43:46 -0800</pubDate>
-    <lastBuildDate>Sun, 09 Nov 2014 20:43:46 -0800</lastBuildDate>
+    <pubDate>Tue, 11 Nov 2014 23:09:46 -0800</pubDate>
+    <lastBuildDate>Tue, 11 Nov 2014 23:09:46 -0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -310,8 +310,6 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
         <category>Design</category>
         
         <category>Markdown</category>
-        
-        <category>FEatured</category>
         
         
         <category>design</category>
