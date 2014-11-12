@@ -8,8 +8,8 @@
 }
 
 .tile img {
-    position: absolute;
     width: 90%;
+    height: auto;
 }}
 
 
