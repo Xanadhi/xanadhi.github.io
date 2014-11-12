@@ -1,9 +1,9 @@
-.container {
-    width: 1170px;
-    background: rgba(0, 0, 0, 0.65);
+#backplate {
+    width: 100%x;
+    background: rgba(0, 0, 0, 0.72);
     border-radius: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     padding-left: 25px;
     padding-right: 25px;
 }
