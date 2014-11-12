@@ -9,7 +9,7 @@
 /* */
 
 body {
-		background: url('/assets/images/parchment_bg.jpg') no-repeat center center fixed;
+		background: url('/assets/images/raindrops_bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,6 +38,7 @@ body {
 #pin {
     color: #fff;
     font-family: 'Slabo 13px', serif;
+    font-size: 3.5em;
 }
 
 .tile > h3 {

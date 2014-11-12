@@ -1,11 +1,10 @@
 #backplate {
-    width: 100%x;
     background: rgba(0, 0, 0, 0.72);
     border-radius: 40px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 
