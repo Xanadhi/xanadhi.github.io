@@ -65,6 +65,14 @@
     background: #66CCFF;
 }
 
+.transparent {
+    background: none;
+}
+
+.transparent p {
+    color: yellow;
+}
+
 .darkblue {
     background: #0052CC;
 }
