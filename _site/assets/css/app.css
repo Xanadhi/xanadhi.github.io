@@ -7,6 +7,11 @@
     padding-right: 3%;
 }
 
+.tile img {
+    width: 90%;
+    height: auto;
+}}
+
 
 .justified {
     text-align: justify;
