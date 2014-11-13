@@ -25,6 +25,11 @@ a:hover {
     color: yellow;
 }
 
+.fa-pencil {
+     background-position: center;
+    background-repeat: no-repeat;
+}
+
 #backplate {
     background: rgba(0, 0, 0, 0.72);
     border-radius: 40px;
