@@ -8,7 +8,10 @@
 .fa-custom {
     color: white;
     font-size: 8em !important;
-    margin-top: -31px;
+}
+
+.fa-pencil {
+    font-size: 8em !important;
 }
 
 #backplate {
