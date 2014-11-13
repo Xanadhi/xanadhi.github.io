@@ -2,7 +2,7 @@
 
 .fa-custom {
     color: white;
-    font-size: 8em;
+    font-size: 8em !important;
 }
 
 #backplate {
