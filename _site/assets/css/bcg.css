@@ -1,13 +1,3 @@
-/* Individual tile backgrounds for my projects */
-
-#peep-phonebook {
-  background: url("http://i.imgur.com/VdYJwDT.png") no-repeat;
-  width: 1005;
-  height: 160px;
-}
-
-/* */
-
 body {
 		background: url('/assets/images/raindrops_bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
