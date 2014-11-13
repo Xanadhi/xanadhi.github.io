@@ -7,11 +7,17 @@
 
 .fa-custom {
     color: white;
-    font-size: 8em !important;
+    font-size: 1.25em !important;
+    margin-right: 35px;
 }
 
-.fa-pencil {
-    font-size: 8em !important;
+.fa-primary {
+    font-size: 7em !important;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 #backplate {
