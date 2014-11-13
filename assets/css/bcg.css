@@ -39,6 +39,12 @@ body {
 	font-size: 18px;
 }
 
+.mc-ico {
+  background-image: url('/assets/images/mc-ico.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .fk-ico {
 	background-image: url('/assets/images/fk_ico.png');
 	background-position: center;
