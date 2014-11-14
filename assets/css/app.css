@@ -11,6 +11,10 @@
     float: right;
 }
 
+.row {
+    margin-bottom: -25px;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -107,6 +111,10 @@ a:hover {
 
 .transparent p {
     color: yellow;
+}
+
+.babyblue {
+    background: #C9F4FF;
 }
 
 .darkblue {
