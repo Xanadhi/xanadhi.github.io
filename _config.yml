@@ -7,7 +7,7 @@ highlighter: pygments
 permalink:        /:year/:title
 
 # Setup
-title:            'Hello Andy!'
+title:            'Hello Andy'
 tagline:          'Tech, innovation and global health'
 description:      'Portfolio showcasing my work in web development and global health'
 url:              'http://xanadhi.github.io/'
@@ -32,6 +32,7 @@ linkedin:       'https://ca.linkedin.com/pub/andy-tran/1a/80b/485/'
 twitter:        'https://twitter.com/andyxtran'
 facebook:       'https://www.facebook.com/andyxtran'
 gplus:          'https://plus.google.com/+AndyTran88'
+github:         'https://github.com/xanadhi'
 
 # Google Analytics
 gahandler: 'UA-39675259-1'

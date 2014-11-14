@@ -57,6 +57,12 @@ body {
 	background-repeat: no-repeat;
 }
 
+.gh-ico {
+  background-image: url('/assets/images/gh_ico.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .gl-ico {
 	background-image: url('/assets/images/gl_ico.png');
 	background-position: center;
