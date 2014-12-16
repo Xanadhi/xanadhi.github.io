@@ -1,14 +1,54 @@
-/* Icon colors */
-
-.blockify {
-    display: inline-block;
-    margin-right: 40px;
+/* Float */
+.float {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+.float:hover, .float:focus, .float:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+/* Icon colors */
 
 .fa-custom {
     color: white;
-    font-size: 8em !important;
-    margin-top: -31px;
+    font-size: 1.25em !important;
+    margin-right: 35px;
+}
+
+.fa-primary {
+    font-size: 7em !important;
+    float: right;
+}
+
+.row {
+    margin-bottom: -25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 1.5s;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #CCCC00;
+}
+
+.fa-pencil {
+     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #backplate {
@@ -78,6 +118,7 @@
     color: #fff;
 }
 
+
 .lightblue {
     background: #66CCFF;
 }
@@ -87,7 +128,11 @@
 }
 
 .transparent p {
-    color: yellow;
+    color: #CCCC00;
+}
+
+.babyblue {
+    background: #C9F4FF;
 }
 
 .darkblue {

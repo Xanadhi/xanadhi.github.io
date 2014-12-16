@@ -28,7 +28,7 @@ body {
 #pin {
     color: #fff;
     font-family: 'Slabo 13px', serif;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 .tile > h3 {
@@ -37,6 +37,12 @@ body {
 
 .font-fix {
 	font-size: 18px;
+}
+
+.mc-ico {
+  background-image: url('/assets/images/mc_ico.png');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .fk-ico {
@@ -49,6 +55,12 @@ body {
 	background-image: url('/assets/images/fk_ico_sm.png');
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.gh-ico {
+  background-image: url('/assets/images/gh_ico.png');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .gl-ico {
