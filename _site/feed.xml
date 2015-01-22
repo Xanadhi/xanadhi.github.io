@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hello Andy</title>
+    <title>Hello, I&#39;m Andy</title>
     <description>Portfolio showcasing my work in web development and global health</description>
     <link>http://xanadhi.github.io//</link>
     <atom:link href="http://xanadhi.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 16 Dec 2014 11:57:46 -0500</pubDate>
-    <lastBuildDate>Tue, 16 Dec 2014 11:57:46 -0500</lastBuildDate>
+    <pubDate>Thu, 22 Jan 2015 11:49:12 -0500</pubDate>
+    <lastBuildDate>Thu, 22 Jan 2015 11:49:12 -0500</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
