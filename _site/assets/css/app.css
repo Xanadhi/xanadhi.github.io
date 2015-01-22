@@ -23,10 +23,22 @@
 }
 
 .fa-primary {
-    font-size: 7em !important;
+    font-size: 8.25em !important;
     float: right;
 }
 
+/* This is to position the lightbulb properly */
+@media screen and (min-width: 990px) and (max-width: 1199px) {
+    a.tile.transparent.fa.fa-lightbulb-o.fa-primary.float {
+        margin-top: -9px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    a.tile.transparent.fa.fa-lightbulb-o.fa-primary.float {
+        margin-top: -20px;
+    }
+}
 
 a {
     text-decoration: none;
@@ -125,7 +137,7 @@ a:hover {
 }
 
 .transparent p {
-    color: #CCCC00;
+    color: #FFFDE4;
 }
 
 .babyblue {
